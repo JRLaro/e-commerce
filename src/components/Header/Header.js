@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles.scss'
-import Logo from './../../assets/LaLaLogo-01.png'
+import Logo from './../../assets/pseudoLogo-01.png'
 
 const Header = (props) => {
     return (
         <header className='header'>
             <div className="wrap">
                 <div className="logo">
-                    <img src={Logo} alt="Lashed Laroux Logo" />
+                    <img src={Logo} alt="Pseudo Logo" />
                 </div>
             </div>
         </header>
