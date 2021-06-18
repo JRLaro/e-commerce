@@ -9,7 +9,6 @@ const Directory = () => {
       <div className="wrap">
         <div
           className="item"
-        //   style={{ backgroundImage: `url(${PriceList})` }}
           style={{ backgroundImage: `url(${Ex})` }}
               >
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

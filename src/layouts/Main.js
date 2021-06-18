@@ -4,9 +4,9 @@ import Header from "../components/Header/Header";
 const Main = (props) => {
   return (
     <div className="fullHeight">
-      <div>
-        <Header />
-        <div className="main">{props.children}</div>
+      <Header />
+      <div className="main">
+        {props.children}
       </div>
     </div>
   );
