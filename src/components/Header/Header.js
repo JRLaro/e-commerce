@@ -1,5 +1,6 @@
 import React from "react";
-import "../styles.scss";
+import "./header.scss";
+import { Link } from "react-router-dom";
 import Logo from "./../../assets/pseudoLogo-01.png";
 
 const Header = (props) => {
@@ -7,7 +8,16 @@ const Header = (props) => {
     <header className="header">
       <div className="wrap">
         <div className="logo">
-          <img src={Logo} alt="Pseudo Logo" />
+          <Link to="/home">
+            <img src={Logo} alt="Pseudo Logo" />
+          </Link>
+        </div>
+        <div className="nav">
+          <ul>
+            <li>
+              <Link to="/register">Register</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </header>

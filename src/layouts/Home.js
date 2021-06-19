@@ -2,15 +2,15 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
-const Main = (props) => {
+const Home = (props) => {
   return (
-    // <div className="fullHeight">
-    <div>
+    <div className="fullHeight">
+    {/* <div> */}
       <Header />
-      <div className="main">{props.children}</div>
+      {props.children}
       <Footer />
-    </div>
+      </div>
   );
 };
 
-export default Main;
+export default Home;
