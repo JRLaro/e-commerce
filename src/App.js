@@ -4,9 +4,10 @@ import "./default.scss";
 
 //layouts
 import Main from "./layouts/Main";
-import Landing from "./layouts/Landing";
+import Home from "./layouts/Home";
 
 //pages
+import Landing from "./pages/Landing";
 import Homepage from "./pages/Homepage";
 import Register from "./auth/Register";
 
@@ -20,9 +21,14 @@ function App() {
             exact
             path="/home"
             render={() => (
-              <Main>
+              <Home>
                 <Homepage />
-              </Main>
+              </Home>
+          /*
+          <Main>
+          <Homepage /> 
+          </Main>
+           */
             )}
           />
           <Route

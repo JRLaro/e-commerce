@@ -11,7 +11,8 @@ const Landing = () => {
           <img className="welcomeBtn" src={Logo} alt="pseudo logo" />
       
           </Link>
-          <h1 className="welcome">Welcome</h1>
+      <h1 className="welcome">welcome</h1>
+      
     </div>
   );
 };
