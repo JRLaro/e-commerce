@@ -6,7 +6,7 @@ const Main = (props) => {
   return (
     // <div className="fullHeight">
     <div>
-      <Header />
+      <Header {...props}/>
       <div className="main">{props.children}</div>
       <Footer />
     </div>
