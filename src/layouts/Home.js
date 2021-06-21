@@ -6,7 +6,7 @@ const Home = (props) => {
   return (
     <div className="fullHeight">
     {/* <div> */}
-      <Header />
+      <Header {...props}/>
       {props.children}
       <Footer />
       </div>
